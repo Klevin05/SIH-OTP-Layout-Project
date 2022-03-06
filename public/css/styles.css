@@ -1,0 +1,142 @@
+
+.box{
+  background-image:url("/images/gradienta-bKESVqfxass-unsplash.jpg") ;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{
+    background-color: rgba(254, 254, 255, 0);
+    /* background-color: transparent; */
+    border-color: rgba(240, 248, 255, 0);
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    font-size: 25px;
+    margin: 0px;
+    focolor: 2f2f2 ! !importan
+    text-decoration: none;t;
+}
+.navbar-nav  li a:hover {
+    color: #f5750c !important; 
+}
+.navbar-brand{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    padding-left: 80px;
+}
+.container{
+  margin: 0%;
+  width: 100%;
+  padding: 0%;
+}
+
+
+
+#home{
+    top: 15px;
+    
+}
+#ppt{
+    top: 15px;
+}
+#ideas{
+    top: 15px;
+}
+#problem{
+  top: 15px;
+}
+#signin{
+  top: 10px;
+}
+
+  * {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: right;
+    width: 19.8%;
+    
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  
+  }
+  .box-1{
+    width: 100%;
+    height: 100%;
+    padding-top: 13%;
+    padding-bottom: 15%;
+    padding-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2f2f2;
+  }
+  .box-3{
+    background-color: rgba(13, 125, 236, 0.74);
+  }
