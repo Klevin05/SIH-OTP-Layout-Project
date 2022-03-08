@@ -7,9 +7,7 @@
     
             <ul class="nav navbar-nav navbar-right">
               <li id="home" ><a href="/" >HOME</a></li>
-              <li id="problem"><a href="#PS">PROBLEM STATEMENT</a></li>
               <li id="ppt"><a href="#Presentation">PRESENTATION</a></li>
-              <li id="ideas"><a href="/ideas">IDEAS</a></li>
               <li id="signin"><a href="/signin"><button type="button" class="btn btn-info">SIGNIN/SIGNUP</button></a></li>
             </ul>
             
@@ -19,13 +17,13 @@
     <%- include("partials/heading"); -%>
 </div>
 
-<div class="box-2" id="PS">
-    <%- include("partials/SIH"); -%>
+
+<div class="box-4">
+    <%- include("partials/SignInSignUP"); -%>
 </div>
 
-
 <div class="box-3" id="Presentation">
-    <h1 style="color: black; text-align: center; font-size: 1.5cm; 
+    <h1 style="color: rgb(255, 255, 255); text-align: center; font-size: 1.5cm; 
     font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif; 
     padding-top: 10px;
     padding-bottom: 10px;">Our Presentation</h1>
@@ -33,9 +31,7 @@
     <%- include("partials/slideshow"); -%>
 </div>
 
-<div class="box-4">
-    <%- include("partials/SignInSignUP"); -%>
-</div>
+
 
 <%- include("partials/footer"); -%>
 
